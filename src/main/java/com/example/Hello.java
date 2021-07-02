@@ -11,6 +11,6 @@ import java.util.function.Function;
 public class Hello implements Function<Mono<User>, Mono<Greeting>> {
 
     public Mono<Greeting> apply(Mono<User> mono) {
-        return mono.map(user -> new Greeting("Hello and some stuff, " + user.getName() + "!\n"));
+        return mono.map(user -> new Greeting("Hello and lets try run from package again, " + user.getName() + "!\n"));
     }
 }
