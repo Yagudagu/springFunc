@@ -39,6 +39,6 @@ jobs:
       with:
         app-name: 'jacmarJavaFunc'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EB4C63158FF3484C9804E109E4C0086D }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a46c59507c244e5ead1484ac080d86ce }}
         package: '${{ env.PACKAGE_DIRECTORY }}'
         respect-pom-xml: true
